@@ -1,11 +1,15 @@
 [package]
 name = "oauth2-surf"
 version = "0.1.0"
+license = "MIT"
+description = "HTTP client adapter for oauth2 crate using the surf HTTP client"
+repository = "https://github.com/pantharshit00/oauth2-surf"
+keywords = ["oauth2", "surf", "async-std"]
+categories = ["authentication"]
 authors = ["Harshit Pant <pantharshit00@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 surf = "2.1"
 thiserror = "1.0"
