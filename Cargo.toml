@@ -1,6 +1,6 @@
 [package]
 name = "oauth2-surf"
-version = "0.1.0"
+version = "0.1.1"
 license = "MIT"
 description = "HTTP client adapter for oauth2 crate using the surf HTTP client"
 repository = "https://github.com/pantharshit00/oauth2-surf"

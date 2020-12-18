@@ -1,7 +1,6 @@
 #![warn(missing_docs)]
 //! HTTP client adapter for [oauth2](https://crates.io/crates/oauth2) using the [surf](https://crates.io/crates/surf) HTTP client
-//!
-//!
+//!  
 //!# Usage
 //!
 //! Just import the `http_client` function from this library and pass it into the request_async function when exchanging tokens.
@@ -137,6 +136,6 @@ pub async fn http_client(request: HttpRequest) -> Result<HttpResponse, Error> {
             })
             .transpose()?
             .unwrap_or_else(HeaderMap::new),
-        body: chunks.to_vec(),
+        body: chunks,
     })
 }
