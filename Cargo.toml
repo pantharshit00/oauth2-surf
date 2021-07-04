@@ -1,6 +1,6 @@
 [package]
 name = "oauth2-surf"
-version = "0.1.1"
+version = "0.1.2"
 license = "MIT"
 description = "HTTP client adapter for oauth2 crate using the surf HTTP client"
 repository = "https://github.com/pantharshit00/oauth2-surf"
@@ -11,11 +11,11 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
-surf = "2.1"
+surf = "2.2"
 thiserror = "1.0"
 http = "0.2"
 anyhow = "1.0"
 
 [dependencies.oauth2]
-version = "4.0.0-alpha.2"
+version = "4.0.0"
 default-features = false
